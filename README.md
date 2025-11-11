@@ -27,10 +27,9 @@ Unified Configuration (Key Items): max_input_length, max_new_tokens (uniformly s
 Input Template: Both groups use the same instruction template; the training objective for the CoT group is "reason + label". The Soft Prompt group is "label only".
 
 **Comparison Matrix**:
-T5-small: Instruction only vs Instruction + CoT vs Instruction + Soft Prompt-Tuning (m=20~50)
-BART-base: Instruction only vs Instruction + CoT vs Instruction + Soft Prompt-Tuning (m=20~50)
-
-Scale Baseline: Instruction prompting for T5-base and BART-large (zero/few samples)
+1. T5-small: Instruction only vs Instruction + CoT vs Instruction + Soft Prompt-Tuning (m=20~50).
+2. BART-base: Instruction only vs Instruction + CoT vs Instruction + Soft Prompt-Tuning (m=20~50).
+3. Scale Baseline: Instruction prompting for T5-base and BART-large (zero/few samples)
 
 # Key Evaluation Metrics
 
