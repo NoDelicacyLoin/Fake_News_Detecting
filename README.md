@@ -1,5 +1,5 @@
 # Fake_News_Detecting
-Capstone Project for UoP
+
 **Research Subject 1:**On FLAN-T5-small (≈80M) and BART-base (≈139M), compare finetuning techniques under a completely unified training and inference decoding configuration:
 
 Instruction + CoT SFT (Training objective: brief reason + final label)
