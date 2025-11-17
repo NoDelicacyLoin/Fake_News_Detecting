@@ -31,8 +31,10 @@ Input Template: Both groups use the same instruction template; the training obje
 2. BART-base: Instruction only vs Instruction + CoT vs Instruction + Soft Prompt-Tuning (m=20~50).
 3. Scale Baseline: Instruction prompting for T5-base and BART-large (zero/few samples)
 
-# Key Evaluation Metrics
+# Data Source: 
+https://huggingface.co/datasets/ucsbnlp/liar/blob/main/README.md
 
+# Key Evaluation Metrics
 Main Metric: Macro-F1.
 Secondary Metric: Accuracy.
 
